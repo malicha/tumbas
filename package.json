@@ -1,0 +1,63 @@
+{
+  "name": "sepasar-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.1.0",
+    "@material-ui/icons": "^4.1.0",
+    "@material-ui/styles": "^4.1.0",
+    "axios": "^0.19.0",
+    "firebase": "^7.1.0",
+    "firebaseui": "^4.0.0",
+    "material-ui-password-field": "^2.1.0",
+    "moment": "^2.24.0",
+    "query-string": "^6.7.0",
+    "react": "^16.8.6",
+    "react-axios": "^2.0.3",
+    "react-content-loader": "^4.2.2",
+    "react-dom": "^16.8.6",
+    "react-firebaseui": "^3.1.2",
+    "react-ga": "^2.6.0",
+    "react-lazy": "^1.1.0",
+    "react-lazyload": "^2.6.1",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.0.1",
+    "react-spotlight": "^1.1.0",
+    "react-swipeable-views": "^0.13.3",
+    "react-virtualized-auto-sizer": "^1.0.2",
+    "react-window": "^1.8.2",
+    "react-window-infinite-loader": "^1.0.3",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "precommit": "NODE_ENV=production lint-staged",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.18.2",
+    "react-snap": "^1.23.0"
+  }
+}
