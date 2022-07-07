@@ -10,7 +10,7 @@
     "firebase": "^7.1.0",
     "firebaseui": "^4.0.0",
     "material-ui-password-field": "^2.1.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "query-string": "^6.7.0",
     "react": "^16.8.6",
     "react-axios": "^2.0.3",
